@@ -798,6 +798,7 @@ main {
     transition: 0.5s;
     border-radius: 0 16px 16px 0;
     overflow: auto;
+    z-index: 3;
   }
 
   .chat-sidebar::-webkit-scrollbar {
@@ -894,6 +895,8 @@ main {
         gap: 10px;
         width: 100%;
         z-index: 2;
+        position: absolute;
+        top: 0;
   }
   .chat-header-mobile .icon-chatBurger {
     font-size: 21px;
