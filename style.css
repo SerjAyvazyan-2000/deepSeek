@@ -671,6 +671,9 @@ main {
   gap: 20px;
   justify-content: center;
 }
+.p-chat-mobile-tools{
+  display: none;
+}
 .p-chat-header h1 {
   font-weight: 500;
   font-size: 32px;
